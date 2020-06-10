@@ -9,3 +9,7 @@ Logo após o termino da instalação, aperte o botão do Windows e procure por "
 ----
 
 Pronto! o PostgreSQL foi instalado no seu Windows!
+
+## Proximo =>
+
+[O que é um banco de dados?](../oque-bd/README.md)

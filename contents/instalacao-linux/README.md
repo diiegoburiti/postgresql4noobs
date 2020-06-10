@@ -36,6 +36,14 @@ sudo systemctl start postgresql-11
 sudo systemctl enable postgresql-11
 ```
 
+Digite ``createdb`` no seu shell para criar um banco de dados para o seu usuário, permitindo o acesso ao PostgreSQL.
+
+Agora digite ``psql`` para entrar no shell do PostgreSQL e poder futuramente, fazer *CRUD* dos dados, que é a criação, leitura, atualização e remoção dos dados.
+
 ----
 
 Pronto! o PostgreSQL foi instaldo no seu sistema!
+
+## Proximo =>
+
+[O que é um banco de dados?](../oque-bd/README.md)
