@@ -16,3 +16,7 @@ Na tabela acima, usuário e email são colunas, que dão nome ao dado que iremos
 Para acessarmos um banco de dados será necessário fazer algo que chamamos de *query* (se pronuncia qui-ry, não que-ry), que é um pedido que fazemos ao banco de dados, é um texto em que falamos o que queremos fazer, com quem queremos fazer e passados os dados que precisamos, isso se chama SQL, é uma linguagem de programação para lidarmos com bancos de dados.
 
 O PostgreSQL é um ótimo banco de dados, pois ele permite que usemos SQL para lidar com ele, usemos *queries* complexas, integridade transacional,etc. Muitas dessas nós não iremos aprender e não nos fazem diferença no início, mas ele é um ótimo banco para escalarmos nossos projetos, principalmente trabalhando com Rails ou uma Stack Javascript (Node.js, React e React Native), mas o PostgreSQL pode funcionar em qualquer linguagem, até mesmo no PHP por exemplo.
+
+## Proximo =>
+
+[O que é um banco de dados?](../criando-usuario/README.md)
