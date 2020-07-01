@@ -38,6 +38,12 @@ sudo systemctl enable postgresql-11
 
 Digite ``createdb`` no seu shell para criar um banco de dados para o seu usuário, permitindo o acesso ao PostgreSQL.
 
+Vamos agora dar privilégios de superusuário ao usuário da sua máquina (seu login), dessa maneira, use ``sudo su - postgres``, logo depois ``psql`` e por final:
+
+```sql
+ALTER ROLE [SEU USUÁRIO] WITH SUPERUSER;
+```
+
 Agora digite ``psql`` para entrar no shell do PostgreSQL e poder futuramente, fazer *CRUD* dos dados, que é a criação, leitura, atualização e remoção dos dados.
 
 ----
