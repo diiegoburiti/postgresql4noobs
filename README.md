@@ -16,3 +16,5 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 3. [Como será nosso projeto?](contents/projeto/README.md)
 4. [O que é SQL?](contents/sql/README.md)
 5. [Criando banco de dados](contents/bd/README.md)
+6. [Tipos no PostgreSQL](contents/tipos/README.md)
+7. [Criando Tabelas](contents/tabelas/README.md)

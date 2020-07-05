@@ -13,3 +13,7 @@ create database empresa
 ```
 
 Apenas é recomendado o uso de maiúsculo, para separar os comandos do SQL dos nomes de tabelas, bancos de dados ou outras coisas, mas vai de sua preferência.
+
+## Proximo =>
+
+[Tipos no PostgreSQL](../tipos/README.md)
