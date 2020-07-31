@@ -19,3 +19,4 @@ O PostgreSQL Ã© um banco de dados relacional muito conhecido, o banco de dados Ã
 6. [Tipos no PostgreSQL](contents/tipos/README.md)
 7. [Criando Tabelas](contents/tabelas/README.md)
 8. [Inserindo dados na tabela](contents/inserindo-dados/README.md)
+9. [Selecionando dados na tabela](contents/selecionando/README.md)

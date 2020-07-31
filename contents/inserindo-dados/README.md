@@ -26,3 +26,7 @@ INSERT INTO usuarios (id, nome, sobrenome) VALUES (
 ```
 
 Agora dentro da tabela, há a idade do Pedro, mas não tem a idade do Felipe, pois a idade é um campo opicional, enquanto todo o resto é obrigatório, pois usamos o `NOT NULL` neles.
+
+## Proximo =>
+
+[Selecionando dados na tabela](../selecionando/README.md)

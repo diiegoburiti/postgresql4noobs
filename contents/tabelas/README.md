@@ -2,6 +2,12 @@
 
 Para criar uma table em PostgreSQL iremos usar o comando `CREATE TABLE` dessa maneira:
 
+primeiro vamos executar o comando para entrar na tabela que criamos, teremos que fazer isso para entrar no shell do `psql` dentro do banco de dados que criamos, dessa maneira:
+
+``psql empresa``
+
+Depois executar essa query para criarmos a tabela:
+
 ```sql
 CREATE TABLE usuarios (
     id SERIAL PRIMARY KEY,
