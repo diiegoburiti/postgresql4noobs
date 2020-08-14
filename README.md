@@ -20,3 +20,4 @@ O PostgreSQL Ã© um banco de dados relacional muito conhecido, o banco de dados Ã
 7. [Criando Tabelas](contents/tabelas/README.md)
 8. [Inserindo dados na tabela](contents/inserindo-dados/README.md)
 9. [Selecionando dados na tabela](contents/selecionando/README.md)
+10. [Atualizando dados na tabela](contents/atualizando/README.md)

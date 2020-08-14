@@ -1,6 +1,6 @@
 # Criando banco de dados e tabelas no PostgreSQL
 
-para criar um banco, use o ``psql`` para entrar no shell interativo do PostgreSQL, e digite:
+para criar um banco, use o `psql` para entrar no shell interativo do PostgreSQL, e digite:
 
 ```sql
 CREATE DATABASE empresa
