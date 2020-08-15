@@ -26,7 +26,7 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 
 ## Intermediário
 
-2. [Critografia](contents/criptografia/README.md)
+2. [Criptografia](contents/criptografia/README.md)
 
 # Contribuindo
 
