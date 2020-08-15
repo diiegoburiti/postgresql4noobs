@@ -54,7 +54,7 @@ se (resultado = Verdadeiro){
 }
 
 senao{
-escreva('A senha está incorreta!')
+  escreva('A senha está incorreta!')
 }
 
 ```
