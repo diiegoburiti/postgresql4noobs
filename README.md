@@ -9,8 +9,6 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 1. [Instalação no Windows](contents/instalacao-windows/README.md)
 2. [Instalação no Linux](contents/instalacao-linux/README.md)
 
-# Conteúdos
-
 ## Básico
 
 1. [O que é um banco de dados?](contents/oque-bd/README.md)
