@@ -21,10 +21,11 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 8. [Inserindo dados na tabela](contents/inserindo-dados/README.md)
 9. [Selecionando dados na tabela](contents/selecionando/README.md)
 10. [Atualizando dados na tabela](contents/atualizando/README.md)
+11. [Deletando dados na tabela](contents/deletando/README.md)
 
 ## Intermediário
 
-2. [Criptografia](contents/criptografia/README.md)
+1. [Criptografia](contents/criptografia/README.md)
 
 # Contribuindo
 

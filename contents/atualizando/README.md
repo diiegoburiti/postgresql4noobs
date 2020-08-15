@@ -28,4 +28,4 @@ SEMPRE que estiver usando o update, se garanta que está passando o SET, que def
 
 ## Proximo =>
 
-[Criptografia](../criptografia/README.md)
+[Deletando dados da tabela](../deletando/README.md)
