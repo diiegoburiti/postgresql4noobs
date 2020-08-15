@@ -9,7 +9,9 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 1. [Instalação no Windows](contents/instalacao-windows/README.md)
 2. [Instalação no Linux](contents/instalacao-linux/README.md)
 
-## Conteúdos
+# Conteúdos
+
+## Básico
 
 1. [O que é um banco de dados?](contents/oque-bd/README.md)
 2. [Criando nosso usuário do PostgreSQL](contents/criando-usuario/README.md)
@@ -21,3 +23,11 @@ O PostgreSQL é um banco de dados relacional muito conhecido, o banco de dados �
 8. [Inserindo dados na tabela](contents/inserindo-dados/README.md)
 9. [Selecionando dados na tabela](contents/selecionando/README.md)
 10. [Atualizando dados na tabela](contents/atualizando/README.md)
+
+## Intermediário
+
+2. [Critografia](contents/criptografia/README.md)
+
+# Contribuindo
+
+Qualquer contribuição, tanto uma issue, pull request, dica,etc. é admirável, se você tem um conhecimento sobre PostgreSQL que não está aqui, faça um Pull Request de preferência com o conteúdo que deseja adicionar, mas se não tiver tempo ou disposição, faça uma issue com o tema em questão e se ele é Básico, Intermediário ou Avançado.

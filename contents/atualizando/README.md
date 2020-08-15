@@ -25,3 +25,7 @@ Há várias possibilidades de condições, como `idade > 23`, brinque por você 
 ## Aviso
 
 SEMPRE que estiver usando o update, se garanta que está passando o SET, que define o novo valor, e principalmente o WHERE, que define onde esse valor vai mudar, pois, sem o WHERE, a alteração é aplicada para TODAS as linhas da tabela, enquanto você estiver apredendo, isso vai será um problema, mas se algum dia, por algum motivo, você estiver mexendo com a tabela direto no terminal do servidor, isso é algo muito ruim, que se o banco não tiver nenhum backup, todos os dados estarão danificados.
+
+## Proximo =>
+
+[Criptografia](../criptografia/README.md)
