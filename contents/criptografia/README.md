@@ -8,7 +8,7 @@ A maioria dos usuários, tem uma má prática de ter a mesma senha em vários se
 
 ## Mas como podemos resolver esse problema?
 
-Simples!, com criptografia síncrona e assíncrona.
+Simples!, com criptografia simetrica e asimetrica .
 
 A criptografia é o ato de transformar uma mensagem, em uma outra mensagem, mas muito mais difícil de entender, ou que é impossível de entender se não tivermos a chave da criptografia, onde que se aplicarmos essa chave da criptografia na mensagem criptografada, iremos receber a mensagem original.
 
@@ -28,21 +28,21 @@ Output: `N Ur4eg znaqn orz qrznvf!`
 
 Como você pode ver, é ilegível a segunda mensagem, mas como você pode ter percebido, se fizermos o processo contrário, iremos pegar a mensagem de volta.
 
-## Criptografia Síncrona
+## Criptografia Simétrica
 
-A Criptografia síncrona é exatamente esta tipo de criptografia apresentada acima, onde podemos encriptar a mensagem e descriptografar ela depois, mas é claro, há algorítimos MUITO mais complexos que o ROT13. O mais conhecido é o AES, que recebe a mensagem, e dois parâmetros, um de 32 caracteres hexadecimais, e o outro de 64 caracteres hexadecimais.
+A Criptografia simétrica é exatamente esta tipo de criptografia apresentada acima, onde podemos encriptar a mensagem e descriptografar ela depois, mas é claro, há algorítimos MUITO mais complexos que o ROT13. O mais conhecido é o AES, que recebe a mensagem, e dois parâmetros, um de 32 caracteres hexadecimais, e o outro de 64 caracteres hexadecimais.
 
 Assim, em uma aplicação usando qualquer stack de programação web (Nodejs, PHP, Rails,etc), podemos enviar o dado normal do frontend (tela do usuário) para o backend (servidor), e ele cuidará de criptografar o dado e escrever no banco de dados. Depois disso, o frontend pode requisitar o dado novamente, e o backend pegará o dado criptografado, descriptografará ele e enviará para o frontend.
 
-## Criptografia Assíncrona
+## Criptografia Assimétrica
 
-A criptografia assíncrona, é uma criptografia muito mais forte que a criptografia síncrona, pois quando a mensagem é criptografada, não é possível descriptografar, apenas podemos pegar a mesma mensagem que foi usada, e comparar com a mensagem criptografada, que é chamada de **hash**. E se o resultado for verdadeiro, aquela é a mensagem original.
+A criptografia assimétrica, é uma criptografia muito mais forte que a criptografia simetrica, pois quando a mensagem é criptografada, não é possível descriptografar, apenas podemos pegar a mesma mensagem que foi usada, e comparar com a mensagem criptografada, que é chamada de **hash**. E se o resultado for verdadeiro, aquela é a mensagem original.
 
-Um algorítimo de criptografia assíncrona muito conhecido é o **Bcrypt**, que está disponível em diversas linguagens diferentes, ele é ótimo pois é muito prático, apenas precisamos definir a profundidade da criptografia, onde 10 já é um número ótimo e pronto, ele faz tudo para nós.
+Um algorítimo de criptografia assimétrica muito conhecido é o **Bcrypt**, que está disponível em diversas linguagens diferentes, ele é ótimo pois é muito prático, apenas precisamos definir a profundidade da criptografia, onde 10 já é um número ótimo e pronto, ele faz tudo para nós.
 
 ## Juntando as Duas
 
-Podemos critografar a senha do usuário usando criptografias assíncronas, pegando o email dele, fazendo uma query que busca qual é a senha de quem tem aquele email, depois pegar a senha que foi recebida e comparar com a que está no banco de dados, observe o pseudo-código abaixo:
+Podemos critografar a senha do usuário usando criptografias assimétricas, pegando o email dele, fazendo uma query que busca qual é a senha de quem tem aquele email, depois pegar a senha que foi recebida e comparar com a que está no banco de dados, observe o pseudo-código abaixo:
 
 ```
 senha = SELECT senha FROM usuarios WHERE email = [email_do_usuario]
